@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRC", "SRC", "{1BF8121A-226C-459E-9728-E9AA4387C504}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDD", "TDD", "{FFAAC0BE-AF64-40E4-9A62-DC11E4C6A24B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yogurt.NET", "SRC\Yogurt.NET\Yogurt.NET.csproj", "{F6A79DCF-31E6-4767-8072-EA6D0BDB5936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yogurt.NET.AspNetCore", "SRC\Yogurt.NET.AspNetCore\Yogurt.NET.AspNetCore.csproj", "{0F99F798-ED35-40CD-9DEC-AE606FF3F7B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{B1CB37C4-E269-4CEB-9682-98D11ACB92BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yogurt.NET.Samples.WebApi", "Samples\Yogurt.NET.Samples.WebApi\Yogurt.NET.Samples.WebApi.csproj", "{EFDAB108-A105-4EE0-9070-2BA93D5FFBD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6A79DCF-31E6-4767-8072-EA6D0BDB5936} = {1BF8121A-226C-459E-9728-E9AA4387C504}
+		{0F99F798-ED35-40CD-9DEC-AE606FF3F7B8} = {1BF8121A-226C-459E-9728-E9AA4387C504}
+		{EFDAB108-A105-4EE0-9070-2BA93D5FFBD3} = {B1CB37C4-E269-4CEB-9682-98D11ACB92BB}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6A79DCF-31E6-4767-8072-EA6D0BDB5936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A79DCF-31E6-4767-8072-EA6D0BDB5936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A79DCF-31E6-4767-8072-EA6D0BDB5936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A79DCF-31E6-4767-8072-EA6D0BDB5936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F99F798-ED35-40CD-9DEC-AE606FF3F7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F99F798-ED35-40CD-9DEC-AE606FF3F7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F99F798-ED35-40CD-9DEC-AE606FF3F7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F99F798-ED35-40CD-9DEC-AE606FF3F7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFDAB108-A105-4EE0-9070-2BA93D5FFBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDAB108-A105-4EE0-9070-2BA93D5FFBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDAB108-A105-4EE0-9070-2BA93D5FFBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDAB108-A105-4EE0-9070-2BA93D5FFBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
